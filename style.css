@@ -1,0 +1,57 @@
+html{
+    font-size: 100%;
+}
+.contianer{
+    width: 1200px;
+    margin: 0 auto;
+}
+.form{
+    margin-top: 2rem;
+}
+.form .form-title{
+    font-size: 2rem;
+    font-weight: bold;
+    color: rgb(102, 25, 174);
+    margin-bottom: 1.5rem;
+}
+.form label ,
+.form input{
+    display: block;
+    margin:  .5rem;
+}
+.form input.control-form{
+    width: 100%;
+    padding: .6rem .6rem;
+    border: 1.5px solid rgb(0, 0, 0,.2);
+    border-radius: 5px;
+}
+.form label{
+    color: rgb(167, 109, 222);
+    
+}
+
+.form input.control-form::placeholder{
+ color: rgb(99, 7, 84);
+}
+
+/* focus style */
+
+.form input:focus{
+    background: rgb(239, 211, 239);
+    outline: none;
+    border: 1px solid rgb(59, 2, 59) !important; 
+}
+  .btn{
+    width: 100px;
+    height: 35px;
+    position: absolute;
+    margin-top: 15px;
+    background: rgb(89, 30, 106);
+    color: white;
+    border-radius: 4px;
+    border: none;
+  }
+
+  .btn:hover{
+    background: rgb(204, 126, 225);
+  }
